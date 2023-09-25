@@ -1,0 +1,10 @@
+{
+  "name": "playwright-merge-reports-bug-report",
+  "version": "1.0.0",
+  "description": "Repo to report a bug about merge-reports",
+  "main": "index.js",
+  "repository": "https://github.com/KimotoYanke/playwright-merge-reports-bug-report",
+  "author": "KimotoYanke <kimotoyanke@gmail.com>",
+  "license": "The Unlicense",
+  "private": false
+}
