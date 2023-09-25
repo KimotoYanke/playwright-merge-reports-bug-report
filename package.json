@@ -14,6 +14,6 @@
   "scripts": {
     "generate-blob-report": "playwright test ./e2e/ --config playwright.config.ts --reporter blob",
     "test": "playwright test ./e2e/ --config playwright.config.ts",
-    "merge-reports": "playwright merge-reports ./e2e/ --config playwright.config.ts"
+    "merge-reports": "playwright merge-reports ./blob-report/ --config playwright.config.ts "
   }
 }
