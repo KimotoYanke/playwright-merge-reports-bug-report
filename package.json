@@ -5,6 +5,15 @@
   "main": "index.js",
   "repository": "https://github.com/KimotoYanke/playwright-merge-reports-bug-report",
   "author": "KimotoYanke <kimotoyanke@gmail.com>",
-  "license": "The Unlicense",
-  "private": false
+  "license": "Unlicense",
+  "private": true,
+  "devDependencies": {
+    "@playwright/test": "^1.38.1",
+    "typescript": "^5.2.2"
+  },
+  "scripts": {
+    "generate-blob-report": "playwright test ./e2e/ --config playwright.config.ts --reporter blob",
+    "test": "playwright test ./e2e/ --config playwright.config.ts",
+    "merge-reports": "playwright merge-reports ./e2e/ --config playwright.config.ts"
+  }
 }
